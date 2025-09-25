@@ -18,6 +18,7 @@ Access the fully functional web interface to input patient data and get real-tim
 📋 Table of Contents
 
 🎯 Project Overview
+
 ✨ Key Features
 🏗️ System Architecture
 📊 Model Performance
