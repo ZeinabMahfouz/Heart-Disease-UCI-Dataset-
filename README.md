@@ -20,19 +20,33 @@ Access the fully functional web interface to input patient data and get real-tim
 🎯 Project Overview
 
 ✨ Key Features
+
 🏗️ System Architecture
+
 📊 Model Performance
+
 🚀 Quick Start
+
 💻 Installation
+
 📁 Project Structure
+
 🔬 Pipeline Components
+
 🌐 Web Application
+
 📈 Results & Visualizations
+
 🚀 Deployment
+
 🛠️ Technologies Used
+
 📖 Documentation
+
 🤝 Contributing
+
 📜 License
+
 👨‍💻 Author
 
 
@@ -106,9 +120,13 @@ mermaidgraph TB
     J --> R[Ngrok Tunnel]
 
 📊 Model Performance
+
 🏆 Best Model Results
-ModelAccuracyPrecisionRecallF1-ScoreROC AUCRandom Forest (Optimized)0.9180.9230.9000.9110.954Logistic Regression0.8520.8570.8400.8480.901SVM (RBF)0.8850.8890.8750.8820.923Gradient Boosting0.9010.9050.8950.9000.945
+
+ModelAccuracyPrecisionRecallF1-ScoreROC AUCRandom Forest (Optimized)0.9180.9230.9000.9110.954Logistic Regression0.8520.8570.8400.8480.901SVM (RBF)0.8850.8890.8750.8820.923
+Gradient Boosting0.9010.9050.8950.9000.945
 📈 Key Improvements
+
 
 Hyperparameter Optimization: +7.2% improvement in F1-score
 Feature Selection: Reduced features by 40% while maintaining performance
@@ -117,33 +135,41 @@ Ensemble Methods: Random Forest achieved best overall performance
 
 🎯 Clinical Metrics
 
-Sensitivity (Recall): 90.0% - Correctly identifies 9/10 heart disease cases
-Specificity: 93.6% - Correctly identifies 93.6% of healthy patients
+
+Sensitivity (Recall): 90.0% 
+Correctly identifies 9/10 heart disease cases
+Specificity: 93.6% 
+Correctly identifies 93.6% of healthy patients
 Positive Predictive Value: 92.3% - 92.3% of positive predictions are correct
 Negative Predictive Value: 91.8% - 91.8% of negative predictions are correct
 
 
 🚀 Quick Start
 1️⃣ Clone the Repository
-bashgit clone https://github.com/yourusername/heart-disease-prediction.git
+bashgit clone https://github.com/ZeinabMahfouz/Heart-Disease-UCI-Dataset-.git
 cd heart-disease-prediction
 2️⃣ Install Dependencies
 bashpip install -r requirements.txt
 3️⃣ Run the Complete Pipeline
-bash# Step 1: Data Preprocessing
+bash
+# Step 1: Data Preprocessing
 python data_preprocessing.py
 
 # Step 2: Feature Engineering
 python pca_analysis.py
+
 python feature_selection.py
 
 # Step 3: Model Training & Optimization
 python classification_models.py
+
 python hyperparameter_optimization.py
 
 # Step 4: Deploy Web Application
 python model_export_deployment.py
+
 streamlit run heart_disease_streamlit_app.py
+
 4️⃣ Access the Application
 
 Local: http://localhost:8501
