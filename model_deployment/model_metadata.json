@@ -1,0 +1,54 @@
+{
+  "model_info": {
+    "version": "1.0",
+    "creation_date": "2025-09-25T11:37:03.546976",
+    "model_type": "RandomForestClassifier",
+    "scaler_type": "StandardScaler",
+    "n_features": 10,
+    "feature_names": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak",
+      "sex_1.0",
+      "cp_2.0",
+      "cp_3.0",
+      "cp_4.0",
+      "fbs_1.0"
+    ],
+    "model_info": {
+      "name": "Random Forest",
+      "optimization_method": "GridSearchCV",
+      "parameters": {
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 100
+      },
+      "performance_metrics": {
+        "accuracy": 0.9180327868852459,
+        "precision": 0.8709677419354839,
+        "recall": 0.9642857142857143,
+        "f1_score": 0.9152542372881356,
+        "roc_auc": 0.9491341991341992
+      }
+    }
+  },
+  "validation_results": {
+    "accuracy": 0.9016393442622951,
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1_score": 0.896551724137931,
+    "roc_auc": 0.9491341991341992,
+    "validation_samples": 61
+  },
+  "deployment_date": "2025-09-25T11:37:03.611424",
+  "files": {
+    "pipeline": "model_deployment/heart_disease_predictor_pipeline.pkl",
+    "pipeline_pickle": "model_deployment/heart_disease_predictor_pipeline.pickle",
+    "model_component": "model_deployment/components/model.pkl",
+    "scaler_component": "model_deployment/components/scaler.pkl"
+  }
+}

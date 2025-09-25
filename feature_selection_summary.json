@@ -1,0 +1,96 @@
+{
+  "feature_selections": {
+    "top_5": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak"
+    ],
+    "top_10": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak",
+      "sex_1.0",
+      "cp_2.0",
+      "cp_3.0",
+      "cp_4.0",
+      "fbs_1.0"
+    ],
+    "top_15": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak",
+      "sex_1.0",
+      "cp_2.0",
+      "cp_3.0",
+      "cp_4.0",
+      "fbs_1.0",
+      "restecg_1.0",
+      "restecg_2.0",
+      "exang_1.0",
+      "slope_2.0",
+      "slope_3.0"
+    ],
+    "top_20": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak",
+      "sex_1.0",
+      "cp_2.0",
+      "cp_3.0",
+      "cp_4.0",
+      "fbs_1.0",
+      "restecg_1.0",
+      "restecg_2.0",
+      "exang_1.0",
+      "slope_2.0",
+      "slope_3.0",
+      "ca_1.0",
+      "ca_2.0",
+      "ca_3.0",
+      "thal_6.0",
+      "thal_7.0"
+    ]
+  },
+  "performance_comparison": [
+    {
+      "feature_set": "all_features",
+      "n_features": 20,
+      "cv_mean": 0.7985792349726776,
+      "cv_std": 0.03557767347831914
+    },
+    {
+      "feature_set": "top_20",
+      "n_features": 20,
+      "cv_mean": 0.7985792349726776,
+      "cv_std": 0.03557767347831914
+    },
+    {
+      "feature_set": "top_15",
+      "n_features": 15,
+      "cv_mean": 0.7690163934426228,
+      "cv_std": 0.022747997901402247
+    },
+    {
+      "feature_set": "top_10",
+      "n_features": 10,
+      "cv_mean": 0.7590710382513661,
+      "cv_std": 0.035407306122938166
+    },
+    {
+      "feature_set": "top_5",
+      "n_features": 5,
+      "cv_mean": 0.6765573770491804,
+      "cv_std": 0.03971681537174542
+    }
+  ],
+  "total_original_features": 20,
+  "recommended_feature_set": "top_20"
+}

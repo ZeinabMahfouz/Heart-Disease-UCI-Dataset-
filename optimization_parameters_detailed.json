@@ -1,0 +1,137 @@
+{
+  "Logistic Regression_Grid": {
+    "best_parameters": {
+      "C": 0.1,
+      "max_iter": 1000,
+      "penalty": "l1",
+      "solver": "liblinear"
+    },
+    "cv_score": 0.7810374149659863,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 21.114486932754517
+  },
+  "Decision Tree_Grid": {
+    "best_parameters": {
+      "criterion": "gini",
+      "max_depth": 5,
+      "min_samples_leaf": 2,
+      "min_samples_split": 5
+    },
+    "cv_score": 0.7276360544217686,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 3.068995714187622
+  },
+  "Random Forest_Grid": {
+    "best_parameters": {
+      "max_depth": 5,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "n_estimators": 100
+    },
+    "cv_score": 0.7645408163265307,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 123.39714336395264
+  },
+  "SVM_Grid": {
+    "best_parameters": {
+      "C": 10,
+      "gamma": "scale",
+      "kernel": "linear"
+    },
+    "cv_score": 0.7768707482993197,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 2.263949155807495
+  },
+  "Gradient Boosting_Grid": {
+    "best_parameters": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "min_samples_split": 10,
+      "n_estimators": 100
+    },
+    "cv_score": 0.7479591836734694,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 32.00200319290161
+  },
+  "KNN_Grid": {
+    "best_parameters": {
+      "metric": "manhattan",
+      "n_neighbors": 9,
+      "weights": "uniform"
+    },
+    "cv_score": 0.7812925170068028,
+    "optimization_method": "GridSearchCV",
+    "optimization_time": 0.2539503574371338
+  },
+  "Logistic Regression_Random": {
+    "best_parameters": {
+      "C": 0.5622117123602399,
+      "max_iter": 1000,
+      "penalty": "l1",
+      "solver": "liblinear"
+    },
+    "cv_score": 0.772704081632653,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 0.8846325874328613
+  },
+  "Decision Tree_Random": {
+    "best_parameters": {
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": "log2",
+      "min_samples_leaf": 3,
+      "min_samples_split": 18
+    },
+    "cv_score": 0.7561224489795919,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 1.10628080368042
+  },
+  "Random Forest_Random": {
+    "best_parameters": {
+      "bootstrap": true,
+      "max_depth": 7,
+      "max_features": "sqrt",
+      "min_samples_leaf": 3,
+      "min_samples_split": 17,
+      "n_estimators": 135
+    },
+    "cv_score": 0.7811224489795918,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 67.70669341087341
+  },
+  "SVM_Random": {
+    "best_parameters": {
+      "C": 2.1584494295802448,
+      "gamma": "auto",
+      "kernel": "linear"
+    },
+    "cv_score": 0.7768707482993198,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 8.958291053771973
+  },
+  "Gradient Boosting_Random": {
+    "best_parameters": {
+      "learning_rate": 0.031282275099978295,
+      "max_depth": 8,
+      "min_samples_leaf": 3,
+      "min_samples_split": 16,
+      "n_estimators": 191,
+      "subsample": 0.9157729791015118
+    },
+    "cv_score": 0.7561224489795919,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 82.51740527153015
+  },
+  "KNN_Random": {
+    "best_parameters": {
+      "leaf_size": 11,
+      "metric": "manhattan",
+      "n_neighbors": 8,
+      "weights": "distance"
+    },
+    "cv_score": 0.7852891156462585,
+    "optimization_method": "RandomizedSearchCV",
+    "optimization_time": 0.924511194229126
+  }
+}

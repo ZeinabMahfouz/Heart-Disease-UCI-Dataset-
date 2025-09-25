@@ -1,0 +1,29 @@
+{
+  "dataset_source": "feature_selected_top_10.csv",
+  "optimal_k_analysis": {
+    "elbow_method_k": 2,
+    "best_silhouette_k": 2,
+    "best_calinski_k": 2
+  },
+  "best_kmeans": {
+    "k": 2,
+    "silhouette_score": 0.19978006732880524,
+    "calinski_score": 82.02749194538697,
+    "inertia": 1413.080457011972
+  },
+  "best_hierarchical": {
+    "n_clusters": 3,
+    "silhouette_score": 0.16864950208185628,
+    "calinski_score": 57.11883118963903
+  },
+  "comparison_with_true_labels": {
+    "kmeans": {
+      "adjusted_rand_score": 0.18998520040137376,
+      "normalized_mutual_info": 0.14135982070197603
+    },
+    "hierarchical": {
+      "adjusted_rand_score": 0.15522450038018873,
+      "normalized_mutual_info": 0.11216135286895418
+    }
+  }
+}
