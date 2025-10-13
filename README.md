@@ -63,9 +63,14 @@ Deliver real-time predictions with educational insights
 📊 Dataset
 
 Source: UCI Heart Disease Dataset
+https://archive.ics.uci.edu/dataset/45/heart+disease
+
 Size: 303 patients with 14 clinical features
+
 Target: Binary classification (Heart Disease: Yes/No)
+
 Features: Age, gender, chest pain type, blood pressure, cholesterol, ECG results, etc.
+
 
 
 ✨ Key Features
