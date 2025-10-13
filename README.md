@@ -86,7 +86,6 @@ Develop a production-ready machine learning system that can:
 
 ## 🏗️ System Architecture
 
-```mermaid
 graph TB
     A[Raw Data] --> B[Data Preprocessing]
     B --> C[Exploratory Data Analysis]
