@@ -432,11 +432,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 Zeinab Mahfouz
 
-💼 LinkedIn: [Your LinkedIn Profile]
+💼 LinkedIn: www.linkedin.com/in/zeinab-mahfouz
 
 🐱 GitHub: @ZeinabMahfouz
 
-📧 Email: your.email@example.com
+📧 Email: zeinab.h.mahfouz@gmail.com
 
 🙏 Acknowledgments
 Data Source: UCI Heart Disease Dataset
